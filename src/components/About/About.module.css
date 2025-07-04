@@ -1,0 +1,98 @@
+.aboutSection {
+  padding: 5rem 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.aboutText {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.downloadBtn {
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border: none;
+  transition: var(--transition);
+}
+
+.downloadBtn:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+.skillsWrapper {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.skillsTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skillItem {
+  width: 100%;
+}
+
+.skillName {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.skillPercent {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.progressBar {
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.progressBar .progress-bar {
+  background-color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aboutText {
+    text-align: center;
+  }
+  
+  .downloadBtn {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .skillsTitle {
+    text-align: center;
+  }
+}

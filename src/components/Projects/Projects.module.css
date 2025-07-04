@@ -1,0 +1,58 @@
+.projectsSection {
+  padding: 5rem 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.projectCard {
+  border: none;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background-color: var(--card-bg);
+  transition: var(--transition);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.cardImageWrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+.cardImageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.projectCard:hover .cardImageWrapper img {
+  transform: scale(1.05);
+}
+
+.techBadge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}

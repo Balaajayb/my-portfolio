@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --text-color: #1f2937;
+  --bg-color: #ffffff;
+  --card-bg: #f9fafb;
+  --transition: all 0.3s ease-in-out;
+}
+
+[data-theme="dark"] {
+  --primary-color: #3b82f6;
+  --secondary-color: #1d4ed8;
+  --text-color: #f9fafb;
+  --bg-color: #111827;
+  --card-bg: #1f2937;
+}
